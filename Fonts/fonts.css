@@ -1,0 +1,9 @@
+@font-face {
+    font-family:ERASBD;
+    src: local('ERASBD.TTF'), url(fonts/ERASBD.TTF);
+  }
+  @font-face {
+    font-family:GOTHICB;
+    src: local('GOTHICB.TTF'), url(fonts/GOTHICB.TTF);
+  }
+
