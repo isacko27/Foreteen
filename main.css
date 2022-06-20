@@ -180,5 +180,30 @@ footer {
 }
 
 .contact{
-    color: white;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.log{
+    right: 2rem;
+    position: relative;
+    font-size: 30px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 18px;
+    color: #6b6b6b;
+}
+.log:hover{
+    color: #aaaaaa;
+    cursor: pointer;
+}
+
+.icons{
+    list-style: none;
+}
+.icons li{
+    float: left;
 }
