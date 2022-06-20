@@ -1,0 +1,87 @@
+:root{
+    ---negro:#000;
+    ---letra-blanco:#fff;
+    ---letra-rojo: #e10c00;
+    ---gris:rgba(250,250,250,0.3);
+    
+}
+
+
+
+footer {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'ERASBD';
+}
+
+.ctn-foot {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    color: var(---letra-blanco);
+    margin: auto;
+    background-image: url(../images/FooterBackground.png);
+    background-size: 1290px 455px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    
+}
+
+.ctn{
+    font-size: 13px;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.ctn p {
+    margin-top: 20px;
+    font-family: sans-serif;
+    line-height: 26pt;
+    font-size: 15px;
+}
+
+.ctn-foot li{
+    margin-top: 15px;
+    font-size: 14px;
+    color: var(---letra-blanco);
+    text-decoration: underline;
+    font-family: sans-serif;
+
+}
+
+.contact{
+    color: var(---letra-blanco)!important;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.log{
+    right: 2rem;
+    position: relative;
+    font-size: 30px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 18px;
+    color: #6b6b6b;
+}
+.log:hover{
+    color: #aaaaaa;
+    cursor: pointer;
+}
+
+.icons{
+    list-style: none;
+}
+
+.icons a {
+    margin-left: -5px;
+}
+
+.icons li{
+    float: left;
+}
