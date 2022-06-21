@@ -1,0 +1,110 @@
+:root{
+    ---primario: rgba(6, 21, 224, 0.596);
+    ---secundario_sombreado: rgba(17, 16, 16, 0.808);
+    ---terceario_hover: rgba(8, 161, 199, 0.705);
+    ---white: #fff;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/*Navbar-------*/
+
+
+header {
+    top: 0px;
+}
+
+.nav .li {
+    padding-top: 0px !important;
+}
+
+#home {
+    margin-top: 10px !important;
+}
+
+/*Galery------*/
+
+.carrousel{
+    margin: 0;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+    align-items: center;
+    
+
+}
+.columnas{
+    width: 200%;
+    overflow: hidden;
+    align-items: center;
+  
+    scroll-behavior: smooth;
+ 
+    
+}
+.primera_columna{
+    width: 200%;
+    display: flex;
+    transition: 2s all;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:nowrap
+
+}
+
+
+.camisetas{
+
+  
+    cursor: pointer;
+  
+
+}
+.img{
+    width: 40rem;
+    height: 35rem;
+}
+.camisetas:hover{
+    transform: scale(1.2);
+    transform-origin: center;
+}
+ .button{
+    width: 8rem;
+    height: 12rem;
+    background:rgba(17, 16, 16, 0.514); ;
+    color: var(---white);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    border: none;
+    justify-content: space-between;
+    
+
+   
+}
+
+button:hover{
+    background:rgba(255, 255, 255, 0.671); 
+    color: #000;
+}
+
+.columnas .camisetas{
+    transition: all 0.7s;
+}
+
+.columnas .camisetas:hover:hover{
+    transform:scale(1.1);
+}
+
+
