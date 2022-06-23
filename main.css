@@ -3,6 +3,7 @@
     ---letra-blanco:#fff;
     ---letra-rojo: #e10c00;
     ---gris:rgba(250,250,250,0.3);
+    ---formulario: #232323;
     
 }
 
@@ -18,10 +19,11 @@ html {
 
 body {
     margin: 0;
-    background-color: var(---negro);
+    background-color: #181818;
     background-image: url(images/MainBackground.png) !important;
     background-size: 100%;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -59,7 +61,7 @@ body::-webkit-scrollbar-thumb {
 
 .ctn-main {
     display: flex;
-    height: 780px;
+    height: 743px;
 }
 
 .ctn-main .logo { 
@@ -177,7 +179,7 @@ body::-webkit-scrollbar-thumb {
   background: transparent;
   border-radius:8px;
   box-shadow:0 0 40px -10px #000;
-  margin-left: 30px;
+  margin-left: -1px;
   margin-top: 20px;
   padding:20px 30px;
   max-width:calc(100vw - 40px);
@@ -257,5 +259,12 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     left: 750px;
     bottom: 247px;
+}
+
+.ctn-formulario{
+  background-color: #232323;
+  width: 100%rem;
+  margin-left: 3.5rem;
+  border-radius: 7px;
 }
 
